@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+}
+ul.navSection{
+    list-style-type: none;
+    gap: 10px;
+    display: flex;
+    background-color: rgb(251, 249, 247);
+    box-shadow:10px 10px 10px grey;
+    color: black;
+    padding: 15px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ul.navSection li a{
+    text-decoration: none;
+    color: black;
+}
+    
+    .navSection li:hover {
+        background-color: rgb(232, 243, 248);;
+        color: black;
+      }
+
+.heroSection{
+    /* border: 1px solid blue; */
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    gap: 100px;
+}
+.heroCaption{
+    /* border: 1px solid red; */
+    /* width: 40%; */
+    /* padding: 40px; */
+    gap: 20px;
+    /* margin-top: 30px; */
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.heroCaption a{
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    padding:10px 10px ;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 30%;
+}
+
+.heroCaption a:hover{
+    background-color: white;
+    color: skyblue;
+    border: 1px solid skyblue;
+
+}
+
+.heroImage{
+    /* border: 1px solid purple; */
+    height: 50px;
+    width: 50%;
+
+}
+
+.label{
+    /* border: 1px solid peru; */
+    height: 300%;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    margin-top: -5%;
+    
+
+}
+
+.courseLabel1{
+    border: 2px solid white;
+    padding: 50px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: rgb(232, 243, 248);
+    border-radius: 10px; 
+    width: 60%;
+    
+  
+}
+
+.courseLabel2{
+    border: 2px solid white;
+    padding: 50px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: rgb(232, 243, 248);
+    border-radius: 10px;
+    width: 60%;
+    
+}
+
+.courseLabel3{
+    border: 2px solid white;
+    padding: 20px;
+    margin: 0px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: rgb(232, 243, 248);
+    border-radius: 10px;
+    width: 80%;
+}
+
+.courseLabel4{
+    border: 2px solid white;
+    padding: 50px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: rgb(232, 243, 248);
+    border-radius: 10px;  
+width: 60%;
+}
+
+.subHead{
+ /* border: 1px solid black;  */
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+margin: 10px;
+padding: 50px;
+margin-top: -50px;
+
+}
+
+
+.body{
+/* border: 1px solid brown; */
+height: 400px;
+display: flex;
+padding: 10px;
+margin: 10px;
+margin-top:-30px;
+}
+
+.heading{
+    /* border: 2px solid rgb(0, 67, 250); */
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding: 10px;
+    justify-content: center;
+    margin: 0px;
+}
+
+.topic{
+    /* border: 2px solid yellow;  */
+    padding: 0px 10px 0px 10px; 
+    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+.Front-End{
+ border: 2px solid gray; 
+ height: 300px;  
+ margin: 20px;
+ padding: 0px;
+ border-radius: 20px;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ width:60%;
+
+}
+
+.UIUX{
+    border: 2px solid gray; 
+    height: 300px;  
+    margin: 20px;
+    padding: 0px;
+    border-radius: 20px;  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width:1200px) {
+    .heroSection {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+
+    .heroCaption{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    } */
+
+    /* .heroCaption a{
+        border: 1px solid blueviolet;
+        background-color: skyblue;
+        padding: 15px 20px;
+        border-radius: 10px;
+        color: white;
+        width: 50%;
+        text-decoration: none;
+    }
+}  */
